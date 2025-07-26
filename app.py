@@ -23,7 +23,7 @@ def transform_text(text):
     return " ".join(t)
 
 st.set_page_config(page_title="Spam Classifier",page_icon="🗑️",layout="centered")
-st.title("📩Email / 💬SMS Spam Classifier Model")
+st.title("💬SMS / 📩Email Spam Classifier")
 st.info("This project is a text-based spam detection system designed to identify unwanted or malicious messages in SMS and email formats")
 
 # Input the text
@@ -50,7 +50,7 @@ if st.button("Predict"):
 
 st.markdown("---")  # Adds a horizontal line
 
-st.markdown("**Try some examples:**")
+st.markdown("**Try out some examples:**")
 examples = [
     "I am free today, let's go out for a movie. What do you say?",
     "A [redacted] loan for £950 is approved for you if you receive this SMS. 1 min verification and cash in 1 hr at www.[redacted].co.uk to opt out reply stop.",

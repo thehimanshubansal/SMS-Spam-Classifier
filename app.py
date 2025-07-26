@@ -3,6 +3,8 @@ import nltk
 from nltk.corpus import stopwords
 import pickle
 from nltk.stem.porter import PorterStemmer
+nltk.download("punkt_tab")
+nltk.download("stopwords")
 
 model = pickle.load(open("esc-model.pkl","rb"))
 tfidf = pickle.load(open("vectorizer.pkl","rb"))

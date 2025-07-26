@@ -1,6 +1,6 @@
 # 📬 SMS/Email Spam Classifier
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-SMS-SPAM-DETECTION-blue)](https://github.com/thehimanshubansal/SMS-Spam-Classifier)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-SMS--SPAM--DETECTION-blue)](https://github.com/thehimanshubansal/SMS-Spam-Classifier)
 
 A machine learning-powered text classification system designed to identify unwanted or malicious messages in SMS and email formats using **Multinomial Naïve Bayes** algorithm.
 

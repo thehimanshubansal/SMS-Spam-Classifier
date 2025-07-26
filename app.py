@@ -47,3 +47,18 @@ if st.button("Predict"):
         st.warning("Spam 🗑️")
     else:
         st.error("Some error has occurred ❌")
+
+st.markdown("---")  # Adds a horizontal line
+
+st.markdown("**Try some examples:**")
+examples = [
+    "I am free today, let's go out for a movie. What do you say?",
+    "A [redacted] loan for £950 is approved for you if you receive this SMS. 1 min verification and cash in 1 hr at www.[redacted].co.uk to opt out reply stop.",
+    "Did you see the match? It was insane.",
+    "Accident compensation\nYou have still not claimed the compensation you are due for the accident you had. To start the process please reply YES. To opt out text STOP.",
+    "I love you... Do you love me?",
+    "Congratulations! You've won a free vacation/gift card! To claim, reply with your full name, address, and date of birth."
+]
+
+for item in examples:
+    st.markdown(f"- {item}")

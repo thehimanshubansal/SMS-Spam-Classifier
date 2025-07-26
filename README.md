@@ -9,6 +9,8 @@ A machine learning-powered text classification system designed to identify unwan
 
 This project implements a robust spam detection system that analyzes message content and classifies it as either "Spam" or "Not Spam". After evaluating multiple classification algorithms, Multinomial Naïve Bayes was selected for its superior performance on textual data with discrete features.
 
+<kbd>![Dashboard](https://github.com/user-attachments/assets/c866555f-80c2-431c-ae8e-59d365aa5cc4)</kbd>
+
 ## ✨ Key Features
 
 - **Real-time Classification:** Instant spam detection for SMS and email messages
